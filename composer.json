@@ -1,0 +1,32 @@
+{
+    "name": "andriyleahko/bpm-workflow",
+    "description": "Bpm Workflow",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Leshko\\BpmWorkflow\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Leshko\\BpmWorkflow\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "platform": {
+            "php": "8.1"
+        },
+        "sort-packages": true
+    }
+}
